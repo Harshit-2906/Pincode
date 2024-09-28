@@ -1,0 +1,92 @@
+/* Container for the Pincode Lookup */
+.pincode-lookup {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Input Styling */
+.pincode-lookup input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.pincode-lookup input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Button Styling */
+.pincode-lookup button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pincode-lookup button:hover {
+  background-color: #0056b3;
+}
+
+/* Loader */
+.pincode-lookup .loader {
+  font-size: 1rem;
+  color: #007bff;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+/* Error Message Styling */
+.pincode-lookup .error {
+  color: #ff4d4f;
+  background-color: #ffeaea;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+/* Results Container */
+.pincode-lookup .results {
+  margin-top: 25px;
+  text-align: left;
+}
+
+/* Individual Result Item */
+.pincode-lookup .result-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+}
+
+.pincode-lookup .result-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* No Results Message */
+.pincode-lookup .no-results {
+  margin-top: 20px;
+  color: #999;
+  font-size: 1rem;
+  padding: 12px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
