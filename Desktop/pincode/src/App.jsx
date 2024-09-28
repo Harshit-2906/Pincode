@@ -55,6 +55,7 @@ const App = () => {
         <PostalDetails data={data} filter={filter} setFilter={setFilter} />
       )}
     </div>
+    
   );
 };
 
